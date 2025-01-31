@@ -38,18 +38,24 @@ Create a new project and enable Authentication & Realtime Database.
 Obtain your Firebase config and store it in a .env file:
 
 FIREBASE_API_KEY=your_api_key
+
 FIREBASE_AUTH_DOMAIN=your_auth_domain
+
 FIREBASE_DATABASE_URL=your_database_url
+
 FIREBASE_STORAGE_BUCKET=your_storage_bucket
+
 FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+
 FIREBASE_APP_ID=your_app_id
+
 FIREBASE_MEASUREMENT_ID=your_measurement_id
 
 Add the .env file to .gitignore to prevent exposing credentials.
 
 4️⃣ Run the Application
 
-streamlit run app.py
+streamlit run main.py
 
 🔒 Security Best Practices
 
